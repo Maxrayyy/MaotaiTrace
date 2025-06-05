@@ -37,7 +37,7 @@ pip install flask web3 gradio
 ### 4. 配置 MetaMask
 1. 安装 MetaMask 浏览器插件
 2. 添加 Ganache 网络：
-   - 网络名称：Ganache
+   - 网络名称：使用默认名称
    - RPC URL：http://127.0.0.1:7545
    - 链 ID：1337
    - 货币符号：ETH
