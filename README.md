@@ -22,8 +22,17 @@ pip install flask web3 gradio
 2. 安装并运行 Ganache
 3. 创建新的工作区（Workspace）
 4. 确保 RPC Server 运行在 `http://127.0.0.1:7545`
+5. 
+### 3. 配置 MetaMask
+1. 安装 MetaMask 浏览器插件
+2. 添加 Ganache 网络：
+   - 网络名称：使用默认名称
+   - RPC URL：http://127.0.0.1:7545
+   - 链 ID：1337
+   - 货币符号：ETH
+3. 导入 Ganache 提供的测试账户（私钥）
 
-### 3. 部署智能合约
+### 4. 部署智能合约
 1. 访问 [Remix IDE](https://remix.ethereum.org/)
 2. 创建新文件 `MaotaiTrace.sol`，复制合约代码
 3. 编译合约（确保编译器版本与合约兼容）
@@ -33,15 +42,6 @@ pip install flask web3 gradio
    - 点击 "Deploy" 部署合约
 5. 部署成功后，复制合约地址
 6. 将合约地址更新到 `backend.py` 中的 `default_contract_address` 变量
-
-### 4. 配置 MetaMask
-1. 安装 MetaMask 浏览器插件
-2. 添加 Ganache 网络：
-   - 网络名称：使用默认名称
-   - RPC URL：http://127.0.0.1:7545
-   - 链 ID：1337
-   - 货币符号：ETH
-3. 导入 Ganache 提供的测试账户（私钥）
 
 ## 运行项目
 
