@@ -22,7 +22,7 @@ pip install flask web3 gradio
 2. 安装并运行 Ganache
 3. 创建新的工作区（Workspace）
 4. 确保 RPC Server 运行在 `http://127.0.0.1:7545`
-5. 
+
 ### 3. 配置 MetaMask
 1. 安装 MetaMask 浏览器插件
 2. 添加 Ganache 网络：
